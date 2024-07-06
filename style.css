@@ -134,3 +134,101 @@ opacity: 0.6;
     background-color: rgba(82, 195, 3, 0.15);;
     padding: 11px 19px 11px 19px;
 }
+
+/* third part */
+
+.third-part {
+    height: 476px;
+    background-color: white;
+}
+
+.third-part .third-part-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.third-part .third-part-content .img {
+   width: 682px;
+   height: 476px;
+   background-image: url(/assets/foods.png);
+}
+
+.third-part .third-part-content .text {
+    width: 675px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third-part .third-part-content h1 {
+ /* padding-left: 183px;
+ padding-right: 183px; */
+ display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+}
+
+.third-part .third-part-content p {
+    display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+margin-top: 17px;
+}
+
+.third-part .third-part-content h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 937px;
+    height: 70px;
+    box-sizing: border-box;
+    border-bottom: 1px solid rgba(16, 16, 16, 0.2);
+    border-top: 1px solid rgba(16, 16, 16, 0.2);
+    font-size: 24px;
+    font-family: Work Sans;
+    line-height: 27px;
+    font-weight: 600;
+    opacity: 0.7;
+    margin-top: 34px;
+}
+
+.third-part .third-part-content .icons {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.third-part .third-part-content .icon1 {
+  width: 23px;
+  height: 23px;
+  background-image: url(/icons/fb.png);
+  background-size: cover;
+}
+.third-part .third-part-content .icon2 {
+  width: 20px;
+  height: 20px;
+  background-image: url(/icons/twitter.png);
+  background-size: cover;
+}
+.third-part .third-part-content .icon3 {
+  width: 20px;
+  height: 20px;
+  background-image: url(/icons/insta.png);
+  background-size: cover;
+}
+
+
+.third-part .third-part-content .icon4 {
+  width: 20px;
+  height: 20px;  
+  background-image: url(/icons/pinterest.png);
+  background-size: cover;
+
+}
